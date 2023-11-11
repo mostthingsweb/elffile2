@@ -14,7 +14,6 @@ import platform
 #distribute_setup.use_setuptools()
 
 import setuptools
-import elffile
 
 me='K Richard Pixley, Sebastien Lorquet'
 me_email='rich@noir.com, sebastien@lorquet.fr'
@@ -55,7 +54,6 @@ setuptools.setup(
     download_url='https://github.com/slorquet/elffile2/get/default.tar.bz2',
     description='A pure python library for reading and writing ELF format object files.',
     license='MIT',
-    long_description=elffile.__doc__,
     setup_requires=setup_requirements,
     install_requires=[
         'coding',
